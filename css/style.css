@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+/*Navigation bar style*/
+
 .navbar {
     background-color: #333;
     overflow: hidden;
@@ -43,6 +45,9 @@ body {
     background-color: #ddd;
     color: black;
 }
+
+
+/*welcome section style*/
 
 .welcome {
     display: flex;
@@ -86,4 +91,46 @@ body {
     font-size: 18px;
     color: #666;
     line-height: 1.4;
+}
+
+
+/*about style*/
+
+
+
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about ul li {
+    font-size: 18px;
+    color: #444;
+    margin: 8px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
 }

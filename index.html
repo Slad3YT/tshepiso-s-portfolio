@@ -50,7 +50,7 @@
           <div>
             <h1>Welcome to My Portfolio</h1>
             <p>
-              Hello, I'm Tshepiso Mofokeng, a Full Stack Web Developer with a
+              Hello, I am Tshepiso Mofokeng, a Full Stack Web Developer with a
               passion for creating innovative solutions. I have a strong
               foundation in front-end and back-end technologies such as HTML,
               CSS, JavaScript,Bootstrap, React, PHP, mySQL, and more. I love
@@ -74,12 +74,11 @@
       
       <h2>About Me</h2>
       <p>
-        Hello, I'm Tshepiso Mofokeng, a Web Developer with a background in Information Technology.
+        Hello, I am Tshepiso Mofokeng, a Web Developer with a background in Information Technology.
          I have been developing websites for over a year and recently completed my IT diploma in 2023.
          I am a passionate Full Stack Web Developer with expertise in HTML,
          CSS, JavaScript, Bootstrap, React, PHP, mySQL, and more.
-           My journey involves turning ideas into reality through clean and efficient code. 
-           I am continuously learning and adapting to new technologies to deliver high-quality solutions.
+          
     </p>
       
       <h2>Skills</h2>
@@ -197,25 +196,6 @@
       </footer>
     </section>
 
-    <script>
-      const checkbox = document.getElementById("checkbox_toggle");
-      const menuItems = document.querySelectorAll(".float a");
-
-      menuItems.forEach((item) => {
-        item.addEventListener("click", () => {
-          checkbox.checked = false; // Close the menu when a link is clicked
-        });
-      });
-
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-    </script>
+    <script src="js/action.js"> </script>
   </body>
 </html>
